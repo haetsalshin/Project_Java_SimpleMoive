@@ -32,3 +32,10 @@ JAVA기반의 한국 영화 박스피스 1~10위까지의 정보를 파싱 및 �
   - [pom.mxl](): Maven에서 bulid할 Libaray 설명하는 장소
 
 ## :speech_balloon:How to use?
+  first, you should get a key form [한국영화진흥위원회](http://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
+  
+  1. BoxOfficeParser에서 발급받은 Key를 교체한다.
+  2. ReplyDAO에서 MongoDB를 세팅한다.(connect, DB, Collection등)\
+  3. 메인 프로그램을 실행한다.
+  4. 1~10위 중 원하는 영화를 선택한다. → 1~10의 숫자를 입력
+  5. Run the Program!
