@@ -14,17 +14,21 @@ JAVA기반의 한국 영화 박스피스 1~10위까지의 정보를 파싱 및 �
                     [다음 영화](http://ticket2.movie.daum.net/Movie/MovieRankList.aspx)
   
 ## :heavy_check_mark:Hyperlink & Description of Files
-#### 1. pratice
-  - [Chapter01_crawl](https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/pratice/chapter01_crawl.py)
-  - [Chapter02_webbrowser](https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/pratice/chapter02_webbrowser.py)
-  - [Chapter03 seleium_crawl](https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/pratice/chapter03_selenium_crawl.py)
-  - [Chapter04 facebook_login](https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/pratice/chapter04_facebook_login.py)
+#### 1.src/common
+  - [SimpleMovieMain]() : 프로그램 시작하는 곳 + 콘솔 프로그래밍 view단!
+  - [BoxOfficeParser]() : 한국영화진흥위원회에서 일별 박스오피스 정보 수집(랭크, 영화제목, 누적관객수, 누적 매출액)
 
-#### 2. libs
-  - `소스코드 할당 및 값 return.`
-  - [crawler](https://https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/libs/crawler.py)
+#### 2.src/naver
+  - [BoxOfficeNaver](): naver서 BoxOffice 1~10위 까지 영화 정보(제목, 상영일자, 감독, 출연진 등) 및 코드(네이버 고유 코드) 수집
+  - [ReplyCrawlerNaver]() : naver에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장.
+#### 3.src/daum
+  - [BoxOfficeDaum](): daum에서 BoxOffice 1~10위 까지 영화 코드 (다음 고유 영화코드) 수집
+  - [ReplyCrawlerDaum]() : daum에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장.
+#### 3.src/persistence
+  - [ReplyDAO]() : 네이버, 다음에서 수집한 영화 댓글 저장 또는 삭제할 때 사용하는 DAO
+#### 3.src/domain
+  - [ReplyDTO]() : 네이버, 다음에서 수집한 영화 댓글 수집 후 MongoDB에 저장 할 때 사용하는 DTO
+#### 3.pom.xml
+  - [pom.mxl](): Maven에서 bulid할 Libaray 설명하는 장소
 
-#### 3. instagram
-  - `인스타그램에서 특정 해시태그를 검색하여 각 게시물을 좋아요를 누르고 댓글달기` 
-  - [hashtag_reply_macro](https://github.com/haetsalshin/Project_Python_InstagramMacro/blob/master/instagram/hashtag_reply_macro.py)
-
+## :speech_balloon:How to use?
