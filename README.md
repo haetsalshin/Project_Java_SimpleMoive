@@ -1,14 +1,17 @@
-# :👩‍💻:Project_Java_SimpleMoive:👩‍💻:
-Boxoffice 1~10위까지의 영화 정보와 네이버, 다음 댓글 crawling
+# 👩‍💻Project_Java_SimpleMoive👩‍💻
+JAVA기반의 한국 영화 박스피스 1~10위까지의 정보를 파싱 및 크롤링하고 MongoDB저장 후 사용자에게 정보를 전달해주는 콘솔프로그래밍
 
 
 ## :heavy_check_mark:Developer Environment
   
-  - Language : [:crocodile:Java](#getting-started)
-  - IDE Tool : [:computer:Eclipse](#running-the-tests)
-  - Package Manager : [:snake:](#deployment)
-  - Using Package :[requests, selenium, beautifulsoup4, times, random](#built-with)
-  - Using WebDriver : [Chrome Driver](#built-with) ( Use the same version as the Chrome browser version you use!)
+  - Language : [:coffee: Java 1.8](#getting-started)
+  - IDE Tool : [:computer: Eclipse](#running-the-tests)
+  - Package Manager : [🔗 : MavenRepository ](#deployment)
+  - Using Package :[jsoup, json-sinmple, mongo-java-driver](#built-with)
+  - Using WebDriver : [Githubm, SourceTree](#built-with) ( Use the same version as the Chrome browser version you use!)
+  - Pasing URL : [한국 영화진흥위원회](http://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
+  - Crawling URL : [네이버 영화](https://movie.naver.com/)
+                   [다음 영화](http://ticket2.movie.daum.net/Movie/MovieRankList.aspx)
   
 ## :heavy_check_mark:Hyperlink & Description of Files
 #### 1. pratice
