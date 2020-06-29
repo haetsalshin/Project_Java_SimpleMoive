@@ -1,5 +1,5 @@
 # 👩‍💻Project_Java_SimpleMoive👩‍💻
-JAVA기반의 한국 영화 박스피스 1~10위까지의 정보를 파싱 및 크롤링하고 MongoDB저장 후 사용자에게 정보를 전달해주는 콘솔프로그래밍
+JAVA기반의 한국 영화 박스오피스 1~10위까지의 정보를 파싱 및 크롤링하고 MongoDB저장 후 사용자에게 정보를 전달해주는 콘솔프로그래밍
 
 
 ## :heavy_check_mark:Developer Environment
