@@ -10,7 +10,7 @@ JAVA기반의 한국 영화 박스피스 1~10위까지의 정보를 파싱 및 �
   - Using Package :[jsoup, json-sinmple, mongo-java-driver](#built-with)
   - Using WebDriver : [Githubm, SourceTree](#built-with) ( Use the same version as the Chrome browser version you use!)
   - Pasing URL : [한국 영화진흥위원회](http://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
-  - Crawling URL : [네이버 영화](https://movie.naver.com/)
+  - Crawling URL : [네이버 영화](https://movie.naver.com/),  
                    [다음 영화](http://ticket2.movie.daum.net/Movie/MovieRankList.aspx)
   
 ## :heavy_check_mark:Hyperlink & Description of Files
